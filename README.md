@@ -1,61 +1,23 @@
-# Netflix GPT
-    - Create vite react app
-    - Configure tailwind css
-    - Header
-    - Routing
-    - Login/ Sign up form
-    - Form Validation
-    - useRef Hook
-    - install firebase
-    - configure firebase
-    - Create SignUp user account
-    - Implement SignIn user API
-    - Created Redux Store with userSlice
-    - Implement SignOut Feature
-    - Update Profile
-    - BugFix: Sign up user displayName and Profile picture update
-    - BugFix: if the user is not logged in Redirect /browse to login page and vice-versa
-    - Unsubscribe to the onAuthStateChange callback
-    - Add hardcoded values to constants file
-    - Register TMDB API & create an app & get access token
-    - Get Data from TMDB now playing movies list API
-    - Custom Hook for Now Playing Movies
-    - Create movieSlice
-    - Update Store with movies Data
-    - Planning for MainContainer & Secondary Container
-    - Fetch Data for Trailer Video
-    - Update Store with Trailer Video Data
-    - Embedded the Youtube video and make it autoplay and mute
-    - Tailwind classes to make Main Container look awesome 
-    - Build Secondary Component
-    - Build Movie List
-    - Build Movie Card
-    - TMDB Image CDN URL
-    - Made the Browse page amazing with Tailwind CSS
-    - usePopularMovies Custom hook
-    - useTopRatedMovies Custom hook
-    - useUpcomingMovies Custom hook
-    - GPT Search Page
-    - GPT Search Bar
-    - Multi-language Feature in our App
-    - Integrate Google APIs (get google gen ai key)
-    - Gpt Search API Call
-    - Fetch Gpt movie suggestions from TMDB
-    - Created gptSlice added data
-    - Reused Movie List component to mmake movie sugesstion container
-    - Memoization
-    - Added .env file
-    - Adding .env to git ignore
-    - Made Site responsive
+# Netflix-GPT 🎬 🤖
 
-# Features
-- Login/Sign Up
-    - Sign In / Sign up form
-    - redirect to Browse Page
-- Browse (after authentication)
-    - Header
-    - Main Movie
-        - Trailer in Background
-        - Title & Description
-        - Movie Suggestions
-            - MovieLists * N
+A modern movie discovery platform that combines the browsing experience of Netflix with the intelligence of **Gemini AI**. Built with **React** and **Redux**, this project uses AI to provide personalized movie recommendations based on natural language queries.
+
+---
+
+## 🌟 Key Features
+
+* **AI-Powered Movie Search:** A custom GPT-style search bar that suggests movies based on your mood or specific descriptions (e.g., "Suggest some retro 80s sci-fi movies").
+* **TMDB Integration:** Fetches real-time movie data, trending lists, and high-quality posters using the **TMDB API**.
+* **Secure Authentication:** User sign-up and login functionality powered by **Firebase**.
+* **Global State Management:** Efficiently handles user data and movie lists using **Redux Toolkit**.
+* **Multi-Language Support:** (If applicable) Toggle between English and Hindi for a localized UI.
+* **Optimized UI:** Fast, responsive interface built with **Tailwind CSS** and bundled with **Vite**.
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, Tailwind CSS
+* **State Management:** Redux Toolkit
+* **Backend/Auth:** Firebase (Authentication & Hosting)
+* **AI Engine:** Gemini AI API (Google AI SDK)
+* **Data Source:** TMDB API
+* **Build Tool:** Vite
